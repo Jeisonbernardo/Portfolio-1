@@ -1,0 +1,47 @@
+.container {
+    width: 700px;
+    padding: 50px 20px;
+    backdrop-filter: blur(6px);
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .08) 1%, hsla(0, 0%, 100%, .04));
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.imagen {
+    width: 611px;
+    overflow: hidden;
+    border-radius: 25px;
+
+
+}
+
+.imagen img {
+    width: 100%;
+
+}
+
+.content__cotainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.content__cotainer h1 {
+    color: white;
+}
+
+.content__cotainer button {
+    padding: 15px 55px;
+    border: none;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid #43b8ae;
+    color: #43b8ae;
+    cursor: pointer;
+
+}
