@@ -1,5 +1,5 @@
 .container {
-    width: 700px;
+    width: 650px;
     padding: 50px 20px;
     backdrop-filter: blur(6px);
     background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .08) 1%, hsla(0, 0%, 100%, .04));
@@ -9,19 +9,30 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    box-shadow: 0 0 3px rgb(49, 48, 48);
 }
 
 .imagen {
-    width: 611px;
+    width: 500px;
     overflow: hidden;
     border-radius: 25px;
-
-
+    position: relative;
 }
 
 .imagen img {
+    margin: 0 auto;
     width: 100%;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    cursor: pointer;
 
+}
+
+
+
+.imagen:hover img {
+    transform: scale(1.2);
+   
 }
 
 .content__cotainer {

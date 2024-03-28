@@ -1,7 +1,30 @@
-.container{
- max-width: 1600px;
- margin: 0 auto;
- display: flex;
- flex-wrap: wrap;
- gap: 80px;
+
+.container__title {
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.title_primary{
+    color: white;
+    font-size: 54px;
+}
+.title_secundary{
+    color: #43b8ae;
+    font-size: 54px;
+
+  
+}
+
+
+
+.container {
+    max-width: 1600px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
 }
